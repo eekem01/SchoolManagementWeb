@@ -1,7 +1,47 @@
 @{
-    ViewData["Title"] = "Privacy Policy";
+    ViewData["Title"] = "Myth Day College";
 }
-<h1>@ViewData["Title"]</h1>
 
-<p>Use this page to detail your site's privacy policy.</p>
+<style>
+    .about-container {
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+    }
 
+    .about-container img {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        border-radius: 10px;
+        margin: 20px 0;
+    }
+
+    .about-text {
+        text-align: left;
+        font-size: 1.1rem;
+        line-height: 1.7;
+    }
+</style>
+
+<div class="about-container">
+    <!-- Centered Title -->
+    <h1>@ViewData["Title"]</h1>
+
+    <!-- Online School Image -->
+    <img src="https://images.unsplash.com/photo-1580582932707-520aed937b7b"
+         alt="School Building" />
+
+    <!-- About Us Content -->
+    <div class="about-text">
+        <h2>Welcome to Our School</h2>
+        <p>
+            Our school is committed to delivering high-quality education that
+            empowers students academically, socially, and emotionally.
+            We provide a supportive learning environment that encourages curiosity,
+            creativity, and excellence. We offer a comprehensive curriculum that integrates classroom learning,
+            modern technology, sports, and extracurricular activities.
+        </p>
+    </div>
+</div>
