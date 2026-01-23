@@ -1,6 +1,6 @@
 # This workflow builds and deploys a Docker image to Azure Web App
 
-name: SchoolManagementWeb-container-Deploy
+name: SchoolManagementWeb-container-Deployment.
 
 env:
   AZURE_WEBAPP_NAME: smgtapp
